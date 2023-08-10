@@ -19,6 +19,8 @@ const SidebarItem = ({ name, link, emoji }) => {
   );
 };
 
+
+
 export default function AccountSidebar() {
   const { user } = useAuth();
 
